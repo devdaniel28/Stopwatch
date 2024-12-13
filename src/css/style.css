@@ -9,7 +9,7 @@ body {
 #titleweb h1 {
     color: #574e4e;
     text-align: center;
-    margin: 20px 0;
+    margin: 35px 0;
     font-size: 30pt;
 }
 
@@ -22,7 +22,13 @@ body {
 
 #stopwatch p {
     color: #545454;
-    font-size: 25pt;
+    font-size: 50pt;
+}
+
+#config {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
 }
 
 #pause {
@@ -37,5 +43,65 @@ body {
     color: #fff;
 
     padding: 10px;
+
+}
+
+#start {
+    width: auto;
+    height: 3.5rem;
+    font-size: 20pt;
+    font-family: "Press Start 2P", system-ui;
+
+    background: #797373;
+    border: #797373 sloid 1px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    margin: 50px 0;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #797373;
+}
+
+@media only screen and (max-width: 850px) {
+    #titleweb h1 {
+        color: #574e4e;
+        text-align: center;
+        margin: 35px 0;
+        font-size: 25pt;
+    }
+
+    #stopwatch p {
+        color: #545454;
+        font-size: 28pt;
+    }
+
+    #config {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #pause {
+        width: auto;
+        height: 3.5rem;
+        font-size: 20pt;
+        font-family: "Press Start 2P", system-ui;
+    
+        background: #4d4545;
+        border: #4d4545 solid 1px;
+        border-radius: 15px;
+        color: #fff;
+    
+        padding: 10px;
+    
+    }
 
 }
