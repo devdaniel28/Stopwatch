@@ -112,4 +112,4 @@ Este projeto é licenciado sob a **Licença Pública Geral GNU (GNU GPL)**. Para
 ---
 
 
-**Autor:** dvcDaniel(eu)
+**Autor:** dvcDaniel
